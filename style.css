@@ -1,5 +1,4 @@
 body {
-    
     font-family: 'Handlee', cursive;
     font-size: 18px;
     line-height: 34px;
@@ -32,16 +31,28 @@ body {
   }
 
 .container-fluid {
-    padding-top: 60px;
+    padding-top: 40px;
+}
+
+.hideMe, .work, .hitMeUp, .allAboutMe, .workPort {
+    display: none;
+}
+
+.rounded-circle {
+  height: 350px;
+  width: 200px;;
+  display: block;
+  margin: 0 auto;
+  justify-content: right;
 }
 
 .hideMeNext {
   border-radius: 20px;
   border: 0 none;
-}
-
-.hideMe, .work, .hitMeUp, .allAboutMe, .workPort {
-    display: none;
+  height: 90%;
+  width: 60%;
+  display: block;
+  margin: 0 auto;
 }
 
 .imshrinking {
@@ -60,8 +71,9 @@ nav a {
   color: rgb(51, 37, 80);
   font-size: 28px;
   text-decoration: none;
-  border-left: 1px solid rgb(51, 37, 80);
+  text-align: center;
 }
+
 a:hover {
   color:rgb(204, 187, 238);
 }
@@ -71,11 +83,8 @@ img {
   width: 100%;
 }
 
-.hideMeNext {
-  height: 90%;
-  width: 60%;
-  display: block;
-  margin: 0 auto;
+h1 {
+  border-bottom: 2px solid rgb(51, 37, 80);
 }
 
 /* portfolio */
@@ -140,10 +149,28 @@ input[type=submit] {
 }
 
 .fab {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  line-height: 18px;
+  color: rgb(51, 37, 80);
+  font-size: 28px;
   padding: 0 0 0 16px;
 }
 
-/* checking git with this commit */
-.allAboutMe {
-  
+footer {
+  padding: 30px 0;
+  clear: both;
+  font-size: 20px;
+  color: #ffffff;
+  color: rgb(51, 37, 80);
+  text-align: center;
+  /* background: rgb(204, 187, 238); */
+  height: 90px; 
+  /* opacity: .4; */
+}
+
+.downFall{
+display: block;
+margin: 0 auto;
 }
