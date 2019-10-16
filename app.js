@@ -6,6 +6,7 @@ $(document).ready(function () {
         $(".hideMeNext").hide();
         $(".workPort").hide();
 
+
       });
 
       $(document).on("click", ".portal", function () {
@@ -15,6 +16,7 @@ $(document).ready(function () {
         $(".workPort").show();
         $(".allAboutMe").hide();
         $(".hitMeUp").hide();
+        $(".startMeUp").hide();
 
       });
 
@@ -25,6 +27,7 @@ $(document).ready(function () {
         $(".work").hide();
         $(".workPort").hide();
         $(".allAboutMe").hide();
+        $(".startMeUp").hide();
 
       });
      
@@ -35,6 +38,7 @@ $(document).ready(function () {
         $(".work").hide();
         $(".workPort").hide();
         $(".hitMeUp").hide();
+        $(".startMeUp").hide();
     
       });
 
