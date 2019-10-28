@@ -41,13 +41,19 @@ $(document).ready(function () {
         $(".startMeUp").hide();
     
       });
-
-      // $(document).on("click", ".", function () {
-      //   event.preventDefault();
-      //   $(".allAboutMe").hide();
-      //   $(".hideMeNext").hide();
-      //   $(".hitMeUp").hide();
-    
-      // });
-
+      
+      function copyText() {
+        /* Get the text field */
+        var copyText = document.getElementById("emailMe");
+      
+        /* Select the text field */
+        copyText.select();
+      
+        /* Copy the text inside the text field */
+        document.execCommand("copy");
+      
+        /* Alert the copied text */
+        alert("Copied the text: " + copyText.value);
+      }
+      
     });
